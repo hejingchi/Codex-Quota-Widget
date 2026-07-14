@@ -1,0 +1,11 @@
+﻿{
+    "mcpServers":  {
+                       "codex-usage-widget":  {
+                                                  "command":  "node",
+                                                  "args":  [
+                                                               "./scripts/server.mjs"
+                                                           ],
+                                                  "cwd":  "."
+                                              }
+                   }
+}

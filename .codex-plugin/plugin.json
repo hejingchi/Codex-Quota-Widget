@@ -1,0 +1,25 @@
+﻿{
+    "name":  "codex-usage-widget",
+    "version":  "0.1.0",
+    "description":  "Display current Codex usage and remaining allowance from local session data.",
+    "author":  {
+                   "name":  "Local developer"
+               },
+    "skills":  "./skills/",
+    "interface":  {
+                      "displayName":  "Codex Usage Widget",
+                      "shortDescription":  "Show current Codex usage and reset time.",
+                      "longDescription":  "Reads the latest rate-limit snapshot written by Codex to local session logs and reports used allowance, remaining allowance, window duration, reset time, and credits status. No network requests or credentials are used.",
+                      "developerName":  "Local developer",
+                      "category":  "Productivity",
+                      "capabilities":  [
+                                           "Read"
+                                       ],
+                      "defaultPrompt":  [
+                                            "查看我的 Codex 使用量",
+                                            "Codex 使用额度什么时候重置？",
+                                            "Show my Codex usage"
+                                        ]
+                  },
+    "mcpServers":  "./.mcp.json"
+}
